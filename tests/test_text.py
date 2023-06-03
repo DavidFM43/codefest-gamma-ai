@@ -20,5 +20,3 @@ def test_ner_from_file():
      }
     assert ner_from_file("tests/text.txt", save=False) == out_dict
     
-def test_ner_from_url():
-    pass
