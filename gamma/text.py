@@ -17,10 +17,9 @@ def ner_from_str(text, output_path="entities.json", save=True):
     tagger.predict(sentence)
     
     for entity in sentence.get_spans('ner'):
-        start = entity.start_position
-        end = entity.end_position
         tag = entity.text
-        out[entity.tag.lower()].append([start, end, tag])
+        if tag not in out[entity.tag.lower()]:
+            out[entity.tag.lower()].append(tag)
     
     if save:
         save_to_json(out, output_path)
