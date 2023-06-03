@@ -26,9 +26,6 @@ def ner_from_str(text, output_path="entities.json", save=True):
         
     return out
 
-def test_fun():
-    print("hola")
-    
 def ner_from_file(text_path, output_path="entities.json", save=True):
     text = open(text_path, "r").read()
     return ner_from_str(text, output_path, save)
