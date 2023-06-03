@@ -6,7 +6,7 @@ setup(
     description='Library for the Codefest Ad Astra 2023.', 
     author='Gamma AI',
     license='MIT',
-    install_requires=["flair", "newspaper3k"],
+    install_requires=["flair", "newspaper3k", "transformers"],
     setup_requires=['pytest-runner'],
     tests_require=['pytest'],
     test_suite='tests',
