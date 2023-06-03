@@ -118,9 +118,3 @@ text.ner_from_url(url, output_path="entities.json")
 ```
 ****
 
-## **Task 2: Object detection**
-
-Here the second task is the object detection on satellital videos from a plane. The objects that are relevant to detect are:
-* Buildings. 
-* Vehicles.
-This is done using the models 
