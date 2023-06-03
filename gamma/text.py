@@ -24,16 +24,20 @@ def ner_from_str(text, output_path="entities.json", save=True):
     
     if save:
         save_to_json(out, output_path)
+        
     return out
 
+def test_fun():
+    print("hola")
+    
 def ner_from_file(text_path, output_path="entities.json", save=True):
     text = open(text_path, "r").read()
-    ner_from_str(text, output_path, save)
+    return ner_from_str(text, output_path, save)
     
 def ner_from_url(url, output_path="entities.json", save=True):
     article = Article(url)
     article.download()
     article.parse()
     text = article.text
-    ner_from_str(text, output_path, save)
-
+    
+    return ner_from_str(text, output_path, save)

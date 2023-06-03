@@ -18,7 +18,7 @@ def test_ner_from_file():
     'per': [],
     'misc': []
      }
-    assert ner_from_file("text.txt", save=False) == out_dict
+    assert ner_from_file("tests/text.txt", save=False) == out_dict
     
 def test_ner_from_url():
     pass
