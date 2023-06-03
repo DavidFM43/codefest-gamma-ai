@@ -1,5 +1,5 @@
 # **Codefest-gamma-ai**
-
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 # **Installation**
 
 First of all, be sure to conda environment with Python 3.8 installed. To do use, execute the command:
