@@ -1,0 +1,8 @@
+accelerate==0.19.0
+flair==0.12.2
+newspaper3k==0.2.8
+protobuf==3.20.2
+pysocks==1.7.1
+pytest==7.3.1
+pytest-runner==6.0.0
+twine==4.0.2
