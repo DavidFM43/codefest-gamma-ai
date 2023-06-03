@@ -2,6 +2,11 @@
 
 # **Installation**
 
+First of all, be sure to conda environment with Python 3.8 installed. To do use, execute the command:
+```
+conda create --name codefest-test python=3.8  
+```
+
 The installation consist of two simple steps: 
 
 Build the library
