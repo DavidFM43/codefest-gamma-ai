@@ -6,8 +6,11 @@ Repository for the Codefest Ad Astra 2023 hackathon organized by Univesidad de l
 Members:
 
 **Edwards Mendez**
+
 **Juliana Nieto**
+
 **Santiago Ahumada**
+
 **David Mora**
 
 
