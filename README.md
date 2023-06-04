@@ -1,10 +1,21 @@
 # **Codefest-gamma-ai**
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+Repository for the Codefest Ad Astra 2023 hackathon organized by Univesidad de los Andes and Fuerza Aerea Colombiana.
+
+Members:
+
+**Edwards Mendez**
+**Juliana Nieto**
+**Santiago Ahumada**
+**David Mora**
+
+
 # **Installation**
 
-First of all, be sure to conda environment with Python 3.8 installed. To do use, execute the command:
+First of all, be sure to have a conda environment with Python 3.8 installed. To do so, execute the command:
 ```
-conda create --name codefest-test python=3.8  
+conda create --name codefest python=3.8  
 ```
 
 The installation consist of two simple steps: 
